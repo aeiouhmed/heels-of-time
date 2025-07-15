@@ -4,9 +4,9 @@ import './homePage.css';
 function HomePage() {
  
   return (
-    <h1 className="centered-title heels-stage">
-      hello
-    </h1>
+    <div className="home-bg">
+      
+    </div>
   );
 }
 

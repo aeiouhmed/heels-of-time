@@ -1,13 +1,27 @@
+
 body {
-    background-image: url('/public/background.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+    /* background-image: url('/public/background.svg'); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: center center; */
     min-height: 100vh;
     /* background-color: #1a001a; Dark purple background */
     /* color: #ffffff; White text */
-  }
-  
+}
+
+.start-page-bg {
+  background-image: url('/public/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
   .App {
     text-align: center;
     font-family: Arial, sans-serif;

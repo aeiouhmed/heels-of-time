@@ -21,7 +21,7 @@ function StartPage() {
   const navigate = useNavigate();
 
   const handleStartClick = () => {
-    navigate('/home.js');
+    navigate('/home');
   }
 
   useEffect(() => {
@@ -57,7 +57,7 @@ function StartPage() {
   }, []);
 
   return (
-    <div className="centered-title heels-stage">
+    <div className="centered-title heels-stage start-page-bg">
       {heelConfigs.map((heel, i) => (
         <img
           key={heel.alt}
@@ -85,3 +85,4 @@ function StartPage() {
 }
 
 export default StartPage;
+

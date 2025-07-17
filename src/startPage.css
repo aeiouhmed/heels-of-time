@@ -10,7 +10,7 @@ body {
 }
 
 .start-page-bg {
-  background-image: url('/public/background.svg');
+  background-image: url('/public/startPage/background.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;

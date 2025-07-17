@@ -7,13 +7,13 @@ import './startPage.css';
 function StartPage() {
   const NUM_HEELS = 7;
   const heelConfigs = [
-    { src: '/heel 5.svg', alt: 'Heel 5', x: -200, y: -510, rotate: 0, width: 900 },
-    { src: '/heel 3.svg', alt: 'Heel 3', x: -400, y: -440, rotate: 0, width: 720 },
-    { src: '/heel 2.svg', alt: 'Heel 2', x: -420, y: -250, rotate: 0, width: 550 },
-    { src: '/heel 1.svg', alt: 'Heel 1', x: -380, y: -50, rotate: 0, width: 770 },
-    { src: '/heel 7.svg', alt: 'Heel 7', x: 440, y: -600, rotate: 0, width: 670 },
-    { src: '/heel 4.svg', alt: 'Heel 4', x: 390, y: 50, rotate: 0, width: 770 },
-    { src: '/heel 6.svg', alt: 'Heel 6', x: 390, y: -470, rotate: -20, width: 830 },
+    { src: '/startPage/heel 5.svg', alt: 'Heel 5', x: -200, y: -510, rotate: 0, width: 900 },
+    { src: '/startPage/heel 3.svg', alt: 'Heel 3', x: -400, y: -440, rotate: 0, width: 720 },
+    { src: '/startPage/heel 2.svg', alt: 'Heel 2', x: -420, y: -250, rotate: 0, width: 550 },
+    { src: '/startPage/heel 1.svg', alt: 'Heel 1', x: -380, y: -50, rotate: 0, width: 770 },
+    { src: '/startPage/heel 7.svg', alt: 'Heel 7', x: 440, y: -600, rotate: 0, width: 670 },
+    { src: '/startPage/heel 4.svg', alt: 'Heel 4', x: 390, y: 50, rotate: 0, width: 770 },
+    { src: '/startPage/heel 6.svg', alt: 'Heel 6', x: 390, y: -470, rotate: -20, width: 830 },
   ];
 
   // Use a single ref to hold all heel refs
@@ -76,9 +76,9 @@ function StartPage() {
           }}
         />
       ))}
-      <img src="/heels.svg" alt="Heels" className="title-svg" />
-      <img src="/of.svg" alt="Of" className="title-svg of-svg" />
-      <img src="/time.svg" alt="Time" className="title-svg time-svg" />
+      <img src="/startPage/heels.svg" alt="Heels" className="title-svg" />
+      <img src="/startPage/of.svg" alt="Of" className="title-svg of-svg" />
+      <img src="/startPage/time.svg" alt="Time" className="title-svg time-svg" />
       <div className="start-btn" onClick={handleStartClick}>click here to start</div>
     </div>
   );

@@ -6,7 +6,7 @@ function OriginPage() {
 
     const navigate = useNavigate()
 
-    const goBack = () => {
+    const back = () => {
         navigate("/home")
     }
 
@@ -21,8 +21,8 @@ function OriginPage() {
           <img src="/originPage/text-persian.svg" className="text-persian"/>
           <img src="/originPage/right-bottom.svg" className="right-bottom"/>
           <img src="/originPage/right-middle.svg" className="right-middle"/>
-          <div className="go-back-btn">
-            <button onClick={goBack}>GO BACK</button>
+          <div className="back-btn">
+            <button onClick={back}>GO BACK</button>
           </div>
       </div>
     );

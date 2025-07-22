@@ -85,7 +85,7 @@
     z-index: 5;
 }
 
-.go-back-btn {
+.back-btn {
     position: absolute;
     top: 20px;   
     right: 20px; 
@@ -95,7 +95,7 @@
     transition: all 0.3s ease;
 }
 
-.go-back-btn button {
+.back-btn button {
     font-size: 36px;
     font-weight: bold;
     color: black;
@@ -105,12 +105,12 @@
     transition: all 0.3s ease;
 }
 
-.go-back-btn:hover button {
+.back-btn:hover button {
     font-size: 37px; 
     color: white; 
 }
 
-.go-back-btn:hover {
+.back-btn:hover {
     transform: scale(1.05); 
     background-color: #b28f68; 
 }

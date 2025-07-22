@@ -1,12 +1,78 @@
+img {
+  opacity: 1 !important;
+}
+
 .fgs-page-bg {
-  background-image: url('/public/fgsPage/fgsBackground.svg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 50%;
   min-height: 100vh;
   width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 0;
+  background-color: transparent;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-attachment: scroll;
+  background-image: url("/public/fgsPage/fgsBackground.svg");
+}
+
+.sticker {
+  position: absolute;
+  width: 23rem;
+  bottom: 0px;
+}
+.NewBoardBoard_div1 {
+  align-content: space-evenly;
+}
+.green-heels {
+  position: absolute;
+  z-index: -1;
+  width: 29rem;
+}
+.sticker-1 {
+  left: 10px;
+}
+.sticker-2 {
+  left: 300px;
+  width: 25rem;
+  bottom: -35px;
+  height: 27rem;
+}
+.sticker-3 {
+  bottom: 2px;
+  height: 23.2rem;
+  left: 600px;
+}
+.title-shift {
+  position: absolute;
+  right: 14.2rem;
+  top: 12.6rem;
+  height: 7.9rem;
+}
+.title-fashion {
+  position: absolute;
+  top: 0.3rem;
+  left: 29rem;
+  height: 9rem;
+}
+.title-gender {
+  position: absolute;
+  left: 24rem;
+  top: 6rem;
+  height: 105px;
+}
+.title-and {
+  position: absolute;
+  right: 13rem;
+  height: 155px;
+  top: 6rem;
+}
+.btn-back {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  height: 48px;
 }

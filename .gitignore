@@ -24,3 +24,6 @@ yarn-error.log*
 
 package-lock.json
 /node_modules/.package-lock.json
+
+# IDEs and editors
+src/_codux/

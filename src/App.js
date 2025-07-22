@@ -1,13 +1,17 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import StartPage from './startPage';
-import Home from './homePage';
+import HomePage from './homePage';
+import OriginPage from './originPage';
+import RisePage from './risePage';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<StartPage />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/home" element={<HomePage />} />
+      <Route path="/home/origins" element={<OriginPage />} />
+      <Route path="/home/rise" element={<RisePage />} />
       <Route path="/fgs" element={<FgsPage />} />
     </Routes>
   );

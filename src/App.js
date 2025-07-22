@@ -4,6 +4,7 @@ import StartPage from './startPage';
 import HomePage from './homePage';
 import OriginPage from './originPage';
 import RisePage from './risePage';
+import FgsPage from './fgsPage';
 
 function App() {
   return (

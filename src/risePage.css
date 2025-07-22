@@ -1,0 +1,121 @@
+.bg {
+    background-image: url('/public/risePage/bg.png');
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 1129.24px;
+    z-index: 5;
+}
+
+.heel-2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 700px;
+    z-index: 2;
+}
+
+.ellipse {
+    position: absolute;
+    top: 0px;
+    right: 70px;
+    width: 1071.68px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.heels {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 290;
+    z-index: 3;
+}
+
+.text-1 {
+    position: absolute;
+    bottom: 15px;
+    right: 200px;
+    width: 240px;
+    z-index: 6;
+}
+
+.text-2 {
+    position: absolute;
+    bottom: 50px;
+    left: 450px;
+    width: 280px;
+    z-index: 6;
+}
+
+.text-3 {
+    position: absolute;
+    bottom: 245px;
+    right: 470px;
+    width: 270px;
+    z-index: 6;
+}
+
+.note-1 {
+    position: absolute;
+    bottom: -40px;
+    right: 100px;
+    width: 510px;
+    z-index: 5;
+}
+
+.note-2 {
+    position: absolute;
+    bottom: 0px;
+    left: 300px;
+    width: 510px;
+    z-index: 1;
+}
+
+.note-3 {
+    position: absolute;
+    top: 214px;
+    left: 620px;
+    width: 510px;
+    z-index: 4;
+}
+
+.go-back-btn {
+    position: absolute;
+    top: 20px;   
+    right: 20px; 
+    background-color: #D1A87A;
+    padding: 10px 50px;
+    z-index: 6; 
+    transition: all 0.3s ease;
+}
+
+.go-back-btn button {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.go-back-btn:hover button {
+    font-size: 37px; 
+    color: white; 
+}
+
+.go-back-btn:hover {
+    transform: scale(1.05); 
+    background-color: #b28f68; 
+}

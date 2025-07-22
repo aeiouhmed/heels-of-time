@@ -1,0 +1,116 @@
+.grey-bg{
+    background-image: url('/public/originPage/grey-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.paper-bg{
+    position: absolute;
+    width: 1550px;
+    height: auto;
+    top: -50px;
+    z-index: 2;
+}
+
+
+
+.origins-early-use {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    width: 800px;
+    z-index: 3;
+}
+
+.post-it-left {
+    position: absolute;
+    top: 260px;
+    left: 120px;
+    width: 409.8px;
+    z-index: 4;
+}
+
+.post-it-right {
+    position: absolute;
+    top: 197px;
+    left: 430px;
+    width: 600.84px;
+    z-index: 4;
+}
+
+.left-top {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 558px;
+    z-index: 2;
+}
+
+.left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 525px;
+    z-index: 1;
+}
+
+.right-middle {
+    position: absolute;
+    bottom: -20px;
+    right: 517px;
+    width: 517px;
+    z-index: 1;
+}
+
+.right-bottom {
+    position: absolute;
+    bottom: 0px;
+    right: -18px;
+    width: 535px;
+    z-index: 2;
+}
+
+.text-persian {
+    position: absolute;
+    bottom: 199px;
+    left: 570px;
+    width: 323px;
+    z-index: 5;
+}
+
+.go-back-btn {
+    position: absolute;
+    top: 20px;   
+    right: 20px; 
+    background-color: #D1A87A;
+    padding: 10px 50px;
+    z-index: 6; 
+    transition: all 0.3s ease;
+}
+
+.go-back-btn button {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.go-back-btn:hover button {
+    font-size: 37px; 
+    color: white; 
+}
+
+.go-back-btn:hover {
+    transform: scale(1.05); 
+    background-color: #b28f68; 
+}

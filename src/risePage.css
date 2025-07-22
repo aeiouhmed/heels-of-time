@@ -94,7 +94,7 @@
     position: absolute;
     top: 20px;   
     right: 20px; 
-    background-color: #D1A87A;
+    background-color: #E8411A;
     padding: 10px 50px;
     z-index: 6; 
     transition: all 0.3s ease;
@@ -117,5 +117,5 @@
 
 .go-back-btn:hover {
     transform: scale(1.05); 
-    background-color: #b28f68; 
+    background-color: #ba3416; 
 }

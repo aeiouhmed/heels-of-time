@@ -1,0 +1,12 @@
+.fgs-page-bg {
+  background-image: url('/public/fgsPage/fgsBackground.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}

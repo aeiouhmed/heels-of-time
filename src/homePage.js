@@ -13,7 +13,10 @@ function HomePage() {
   const handleRiseClick = () => {
     navigate('/home/rise')
   }
- 
+
+  const handleFgsClick = () => {
+    navigate('/home/fgs');
+  }
   return (
     <div className="home-bg">
       <img src="/homePage/heels-of-time.svg" alt="HeelsOfTime" className="heels-of-time" />
@@ -22,7 +25,7 @@ function HomePage() {
       <img src="/homePage/rise.svg" alt="rise" className="rise" />
       <img src="/homePage/green-heel.png" alt="greenHeel" className="green-heel" onClick={handleOriginClick}/>
       <img src="/homePage/white-boot-2.png" alt="whiteBoot_2" className="white-boot-2" />
-      <img src="/homePage/white-boot-1.png" alt="whiteBoot_1" className="white-boot-1" />
+      <img src="/homePage/white-boot-1.png" alt="whiteBoot_1" className="white-boot-1" onClick={handleFgsClick} />
       <img src="/homePage/pink-heel.png" alt="pinkHeel" className="pink-heel" onClick={handleRiseClick}/>
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { useNavigate } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
-import './fsgPage.css';
+import './fgsPage.css';
 
 
 function FgsPage() {

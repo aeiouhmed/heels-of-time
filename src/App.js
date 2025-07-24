@@ -4,6 +4,7 @@ import StartPage from './startPage';
 import HomePage from './homePage';
 import OriginPage from './originPage';
 import RisePage from './risePage';
+import FgsPage from './fgsPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Route path="/home" element={<HomePage />} />
       <Route path="/home/origins" element={<OriginPage />} />
       <Route path="/home/rise" element={<RisePage />} />
+      <Route path="/fgs" element={<FgsPage />} />
     </Routes>
   );
 }

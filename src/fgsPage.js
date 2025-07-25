@@ -3,6 +3,7 @@ import { gsap } from 'gsap';
 import { useNavigate } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import './fgsPage.css';
+import './App.css'; // Ensure this imports the font styles
 
 
 
@@ -26,12 +27,25 @@ function FgsPage() {
 
     return (
     <div classname="" className="fgs-page-bg">
-      <img src="/fgsPage/btnBack.svg" className="btn-back" onClick={handleBackClick} />
-      <img src="/fgsPage/titleAnd.svg" className="title-and" />
-      <img src="/fgsPage/titleGender.svg" className="title-gender" />
-      <img src="/fgsPage/titleFashion.svg" className="title-fashion" />
-      <img src="/fgsPage/titleShift.svg" className="title-shift" />
+      <div className='btn-back'  onClick={handleBackClick}>
+        <button>GO BACK</button>
+      </div>
+      
+      <div className="title-fashion">FASHION</div>
+      <div className="title-gender">GENDER &</div>
+
+      <div className="title-shift">
+        <div className="shift-text">SHIFT</div>
+      </div>
+      <div className="right-bar">
+        <img src="/fgsPage/imgHeels1.svg" className="img-heels-1" />
+        <img src="/fgsPage/imgHeels2.svg" className="img-heels-2" />
+        <img src="/fgsPage/imgHeels3.svg" className="img-heels-3" />
+      </div>
+
+     
       <img src="/fgsPage/heels1.svg" className="green-heels" />
+
       <img src="/fgsPage/sticker1.svg" className="sticker sticker-1" />
       <img src="/fgsPage/sticker3.svg" className="sticker sticker-3" />
       <img src="/fgsPage/sticker2.svg" className="sticker sticker-2" />

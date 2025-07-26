@@ -16,63 +16,63 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 1350px;
+    width: 90vw;
     height: auto;
 }
 
 .origins{
     position: absolute;
     left: 0;
-    top: 200px;
-    width: 582.45px;
+    top: 12vw;
+    width: 40vw;
     z-index: 2;
 }
 
 .fashion {
     position: absolute;
-    left: 400px;
-    top: 440px;
-    width: 420px;
+    left: 25vw;
+    top: 29vw;
+    width: 28vw;
     z-index: 2;
 }
 
 .rise {
     position: absolute;
-    right: 150px;
-    top: -25px;
-    width: 425.12px;
+    right: 10vw;
+    top: -2vw;
+    width: 28vw;
     z-index: 2;
 }
 
 .green-heel {
     position: absolute;
-    left: 70px;
-    top: 470px;
-    width: 346px;
+    left: 5vw;
+    top: 30vw;
+    width: 23vw;
     z-index: 3;
 }
 
 .white-boot-1 {
     position: absolute;
-    left: 770px;
-    top: 440px;
-    width: 260px;
+    left: 51vw;
+    top: 29vw;
+    width: 17vw;
     z-index: 3;
 }
 
 .white-boot-2 {
     position: absolute;
-    left: 600px;
-    top: 400px;
-    width: 217px;
+    left: 40vw;
+    top: 27vw;
+    width: 13.5vw;
     z-index: 3;
 }
 
 .pink-heel {
     position: absolute;
-    right: 0px;
-    top: 40px;
-    width: 380px;
+    right: 0;
+    top: 1vw;
+    width: 27vw;
     z-index: 3;
 }
 

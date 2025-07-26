@@ -13,43 +13,41 @@
 
 .paper-bg{
     position: absolute;
-    width: 1550px;
+    width: 102.5vw;
     height: auto;
-    top: -50px;
+    top: -3.3vw;
     z-index: 2;
 }
 
-
-
 .origins-early-use {
     position: absolute;
-    top: 40px;
-    left: 60px;
-    width: 800px;
+    top: 2vw;
+    left: 2vw;
+    width: 55vw;
     z-index: 3;
 }
 
 .post-it-left {
     position: absolute;
-    top: 260px;
-    left: 120px;
-    width: 409.8px;
+    top: 17.3vw;
+    left: 8vw;
+    width: 27vw;
     z-index: 4;
 }
 
 .post-it-right {
     position: absolute;
-    top: 197px;
-    left: 430px;
-    width: 600.84px;
+    top: 13vw;
+    left: 28vw;
+    width: 40vw;
     z-index: 4;
 }
 
 .left-top {
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 0;
-    width: 558px;
+    width: 37vw;
     z-index: 2;
 }
 
@@ -57,46 +55,46 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    height: 525px;
+    height: 35vw;
     z-index: 1;
 }
 
 .right-middle {
     position: absolute;
-    bottom: -20px;
-    right: 517px;
-    width: 517px;
+    bottom: 0vw;
+    right: 34vw;
+    width: 35vw;
     z-index: 1;
 }
 
 .right-bottom {
     position: absolute;
-    bottom: 0px;
-    right: -18px;
-    width: 535px;
+    bottom: 0vw;
+    right: -1vw;
+    width: 35.5vw;
     z-index: 2;
 }
 
 .text-persian {
     position: absolute;
-    bottom: 199px;
-    left: 570px;
-    width: 323px;
+    bottom: 13vw;
+    left: 38vw;
+    width: 21vw;
     z-index: 5;
 }
 
 .back-btn {
     position: absolute;
-    top: 20px;   
-    right: 20px; 
+    top: 1vw;   
+    right: 1vw; 
     background-color: #D1A87A;
-    padding: 10px 50px;
+    padding: 1vw 3vw;
     z-index: 6; 
     transition: all 0.3s ease;
 }
 
 .back-btn button {
-    font-size: 36px;
+    font-size: 2vw;
     font-weight: bold;
     color: black;
     background: none;
@@ -106,7 +104,7 @@
 }
 
 .back-btn:hover button {
-    font-size: 37px; 
+    font-size: 2.1vw; 
     color: white; 
 }
 
@@ -114,3 +112,44 @@
     transform: scale(1.05); 
     background-color: #b28f68; 
 }
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px; 
+}
+
+.notee {
+    position: absolute;
+    width: 42vw;
+    max-width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+  }
+  
+  .notee-img {
+    position: absolute;
+    width: 21vw;
+    height: auto;
+    left: 38vw;
+    top: 29.5vw;
+    z-index: 6;
+    object-fit: contain;
+    pointer-events: none;
+  }
+  
+  .notee-text-img {
+    position: absolute;
+    width: 100vw;
+    max-width: 95%;
+    height: auto;
+    z-index: 5;
+    top: 13vw;
+    left: 28vw;
+    display: block;
+    pointer-events: none;
+  }
+  

@@ -3,7 +3,8 @@ import { gsap } from 'gsap';
 import { useNavigate } from 'react-router-dom';
 import './fgsPage.css';
 import './App.css'; // Ensure this imports the font styles
-
+import { Routes, Route } from 'react-router-dom';
+import './fgsPage.css';
 
 
 function FgsPage() {

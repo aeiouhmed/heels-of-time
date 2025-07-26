@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './loadingPage.css';
-import './App.css'; // Ensure this imports the font styles
 import loadingBg1 from './assets/loadingPage/loadingBg1.svg';
 import loadingBg2 from './assets/loadingPage/loadingBg2.svg';
 import loadingBg3 from './assets/loadingPage/loadingBg3.svg';

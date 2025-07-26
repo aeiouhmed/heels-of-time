@@ -1,0 +1,174 @@
+img {
+  opacity: 1 !important;
+}
+
+.fgs-page-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  background-color: transparent;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-attachment: scroll;
+  background-image: url("/public/fgsPage/fgsCleanBackground.svg");
+}
+
+.sticker {
+  position: absolute;
+  width: 23rem;
+  bottom: 0px;
+}
+.NewBoardBoard_div1 {
+  align-content: space-evenly;
+}
+.green-heels {
+  position: absolute;
+  z-index: -1;
+  width: 35vw;
+  top: 0px;
+}
+.sticker-1 {
+  left: 2vw;
+  bottom: 0.1vw;
+  width: 25vw;
+}
+.sticker-2 {
+  width: 27vw;
+  left: 28vw;
+  bottom: 0.1vw;
+}
+.sticker-3 {
+  left: 55vw;
+  bottom: 0.02vw;
+  width: 25vw;
+}
+.title-shift {
+  position: absolute;
+  right: 0vw;
+  top: 13.5vw;
+  height: 8vw;
+  left: 0vw;
+  background-color: #d9d9d9;
+  z-index: -3;
+  overflow: hidden; /* Added for text animation */
+}
+
+.shift-text {
+  position: absolute;
+  right: 12.5vw;
+  top: -1.3vw;
+  z-index: 16;
+  float: 20;
+  color: #000;
+  font-weight: 700;
+  font-size: 9.6vw;
+  font-family: "CalasansOutline";
+  letter-spacing: 1vw;
+  font-weight: 300;
+}
+
+.title-fashion {
+  position: absolute;
+  top: 0.3vw;
+  right: 24vw;
+  height: 9vw;
+  font-family: "CalasansSolid";
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 0.7vw;
+  font-size: 7.3vw;
+  overflow: hidden; /* Added for text animation */
+}
+.title-gender {
+  position: absolute;
+  right: 25vw;
+  top: 6.2vw;
+  height: 105px;
+  font-family: "CalasansSolid", "Times New Roman", serif;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: 0.7vw;
+  font-size: 7.5vw;
+}
+
+.title-and {
+  position: absolute;
+  right: 13rem;
+  height: 155px;
+  top: 6rem;
+  font-family: "CalasansSolid", "Times New Roman", serif;
+  color: #000;
+  font-weight: 700;
+  font-size: 6rem;
+}
+
+.btn-back button {
+  font-size: 4vw;
+  font-weight: bold;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-back {
+    position: absolute;
+    top: 0.3vw;
+    right: 0.3vw;
+    width: 9vw;
+    background-color: #b5344a;
+    padding: 0.7vw 1vw;
+    z-index: 6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-back button {
+  font-size: 1vw;
+  font-weight: bold;
+  color: black;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  width: 5 rem;
+}
+
+.btn-back:hover button {
+  font-size: 1.1vw;
+  color: white;
+}
+
+.right-bar {
+  align-content: start;
+  position: fixed;
+  right: 0rem;
+  bottom: 0rem;
+  top: 0px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: start;
+  z-index: -1;
+  width: 12.5vw;
+  filter: brightness(0.7);
+}
+.img-heels-1 {
+  height: 17vw;
+}
+.img-heels-2 {
+  height: 19vw;
+}
+.img-heels-3 {
+  height: 13vw;
+}

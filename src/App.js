@@ -13,7 +13,7 @@ function App() {
       <Route path="/home" element={<HomePage />} />
       <Route path="/home/origins" element={<OriginPage />} />
       <Route path="/home/rise" element={<RisePage />} />
-      <Route path="/fgs" element={<FgsPage />} />
+      <Route path="/home/fgs" element={<FgsPage />} />
     </Routes>
   );
 }

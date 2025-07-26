@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'CalasansInside';
+  src: url('./fonts/Calasans Inside.otf') format('opentype'),
+       url('./fonts/Calasans Inside.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'CalasansOutline';
+  src: url('./fonts/Calasans Outline.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'CalasansSolid';
+  src: url('./fonts/Calasans Solid.otf') format('opentype'),
+       url('./fonts/Calasans Solid.ttf') format('truetype'),
+       url('./fonts/Calasans 04 Solid Demo.otf') format('opentype');;
+}

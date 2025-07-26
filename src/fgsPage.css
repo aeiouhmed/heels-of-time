@@ -95,7 +95,6 @@ img {
   font-weight: 700;
   letter-spacing: 0.7vw;
   font-size: 7.5vw;
-  overflow: hidden; /* Added for text animation */
 }
 
 .title-and {

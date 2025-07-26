@@ -32,18 +32,18 @@ function FgsPage() {
         const tl = gsap.timeline();
 
         tl.to(".green-heels", { rotation: 0, duration: 1, ease: "power2.out" })
-          .to(".sticker-1", { x: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "<") // Start with green-heels
-          .to(".sticker-2", { y: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "<") // Start with green-heels
-          .to(".sticker-3", { x: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "<") // Start with green-heels
-          // Text animations right after sticker animations
-          .to(".fashion-char", { opacity: 1, duration: 0.1, stagger: 0.05, ease: "power1.out" }, "+=0.1") // Type out effect for Fashion
-          .to(".gender-char", { opacity: 1, duration: 0.1, stagger: 0.05, ease: "power1.out" }, "+=0.1") // Type out effect for Gender &
-          // img-heels animations after text animations
-          .to(".img-heels-1", { y: "0%", opacity: 1, duration: 0.8, ease: "power2.out" }, "+=0.1") // 0.1s delay after text animations
-          .to(".img-heels-2", { x: "0%", opacity: 1, duration: 0.8, ease: "power2.out" }, "-=0.6") // Start 0.2s after img-heels-1 starts (0.8 - 0.6 = 0.2)
-          .to(".img-heels-3", { y: "0%", opacity: 1, duration: 0.8, ease: "power2.out" }, "-=0.6") // Start 0.2s after img-heels-2 starts
-          // SHIFT animation after all img-heels animations
-          .to(".title-shift", { x: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "+=0.1"); // Slide in from left for SHIFT
+          // Text animations after green-heels
+          .to(".fashion-char", { opacity: 1, duration: 0.1, stagger: 0.05, ease: "power1.out" }, "+=0") // Type out effect for Fashion
+          .to(".gender-char", { opacity: 1, duration: 0.1, stagger: 0.05, ease: "power1.out" }, "+=0") // Type out effect for Gender &
+          // img-heels animations after text
+          .to(".img-heels-1", { y: "0%", opacity: 1, duration: 0.8, ease: "power2.out" }, "+=0") // 0.0s delay after text animations
+          .to(".img-heels-2", { x: "0%", opacity: 1, duration: 0.8, ease: "power2.out" }, "-=0.7") // Start 0.1s after img-heels-1 starts (0.8 - 0.7 = 0.1)
+          .to(".img-heels-3", { y: "0%", opacity: 1, duration: 0.8, ease: "power2.out" }, "-=0.7") // Start 0.1s after img-heels-2 starts
+          // SHIFT animation and Sticker animations at the same time, after img-heels
+          .to(".title-shift", { x: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "+=0") // Start immediately after img-heels-3
+          .to(".sticker-1", { x: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "<") // Start with SHIFT
+          .to(".sticker-2", { y: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "<") // Start with SHIFT
+          .to(".sticker-3", { x: "0%", opacity: 1, duration: 1, ease: "power2.out" }, "<"); // Start with SHIFT
 
     }, []);
 

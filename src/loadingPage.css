@@ -1,0 +1,67 @@
+.loading-page-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.loading-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 1; /* Lower than black-overlay */
+}
+
+.black-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 2; /* Higher than loading-image */
+  /* Opacity transition will be set inline in JS for dynamic duration */
+}
+
+.little-loading {
+  position: absolute;
+  top: 1.5vw;
+  left: 1.5vw;
+  width: 8vw;
+  height: 8vw;
+  background-color: transparent;
+  z-index: 3; /* Higher than black-overlay */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: start;
+}
+
+.little-loading-image {
+  width: 3vw;
+  height: 3vw;
+  animation: spin 2s linear infinite;
+  transform: scaleX(-1); /* Flips the image horizontally */
+}
+
+.loading-text {
+  /* position: absolute;
+  top: 5vw;
+  left: 1.5vw; */
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 700;
+  font-family: 'CalasansSolid', sans-serif;
+  z-index: 3; /* Higher than black-overlay */
+}

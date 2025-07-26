@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import StartPage from './startPage';
+import LoadingPage from './loadingPage';
 import HomePage from './homePage';
 import OriginPage from './originPage';
 import RisePage from './risePage';
@@ -9,7 +10,8 @@ import FgsPage from './fgsPage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<StartPage />} />
+      <Route path="/" element={<LoadingPage />} />
+      <Route path="/start" element={<StartPage />} />
       <Route path="/home" element={<HomePage />} />
       <Route path="/home/origins" element={<OriginPage />} />
       <Route path="/home/rise" element={<RisePage />} />

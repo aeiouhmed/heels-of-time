@@ -151,8 +151,8 @@ img {
 .right-bar {
   align-content: start;
   position: fixed;
-  right: 0rem;
-  bottom: 0rem;
+  right: 0vw;
+  bottom: 0 vw;
   top: 0px;
   overflow: hidden;
   display: flex;
@@ -165,10 +165,13 @@ img {
 }
 .img-heels-1 {
   height: 17vw;
+  right: 0vw;
 }
 .img-heels-2 {
-  height: 19vw;
+  height: 22vw;
+  right: 0vw;
 }
 .img-heels-3 {
-  height: 13vw;
+  height: 15vw;
+  right: 0vw;
 }

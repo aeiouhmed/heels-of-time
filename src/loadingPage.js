@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './loadingPage.css';
-
+import './App.css'; // Ensure this imports the font styles
 import loadingBg1 from './assets/loadingPage/loadingBg1.svg';
-import { gsap } from 'gsap';
 import loadingBg2 from './assets/loadingPage/loadingBg2.svg';
 import loadingBg3 from './assets/loadingPage/loadingBg3.svg';
+import spinningHeel from './assets/loadingPage/spinningHeel.svg';
 
 const images = [loadingBg1, loadingBg2, loadingBg3];
 
@@ -83,11 +83,27 @@ function LoadingPage() {
           transition: `opacity ${fadeDuration / 1000}s ease-in-out`,
         }}
       ></div>
-      <div className="little-loading">
-      <img src="/loadingPage/spinningHeel.svg" alt="Loading" className="little-loading-image" />
-      <p className="loading-text">Loading...</p>
+      <div className='little-loading'>
+      <div
+        className="little-loading-image"
+        style={{
+          position: 'absolute',
+          top: '1.5vw',
+          left: '1.5vw',
+          width: '5vw',
+          height: '5vw',
+          backgroundImage: `url(${spinningHeel})`,
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
+          transform: 'scaleX(-1)', /* Mirror the image */
+          zIndex: 3, /* Ensure it's above the black overlay */
+        }}
+      ></div>
+      <div className="loading-text">
+        Loading...
       </div>
-    </div>
+      </div>
+      </div>
   );
 }
 

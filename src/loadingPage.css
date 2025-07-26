@@ -32,6 +32,31 @@
   /* Opacity transition will be set inline in JS for dynamic duration */
 }
 
+@keyframes spinClockwise {
+  from {
+    transform: rotate(0deg) scaleX(-1);
+  }
+  to {
+    transform: rotate(360deg) scaleX(-1);
+  }
+}
+
+.little-loading-image {
+  animation: spinClockwise 4s linear infinite; /* Apply the animation */
+}
+
+
+.loading-text {
+  /* position: absolute;
+  top: 5vw;
+  left: 1.5vw; */
+  font-size: 1.5vw;
+  color: white;
+  font-weight: 700;
+  font-family: 'CalasansSolid', sans-serif;
+  z-index: 3; /* Higher than black-overlay */
+}
+
 .little-loading {
   position: absolute;
   top: 1.5vw;
@@ -46,22 +71,4 @@
   flex-wrap: nowrap;
   align-items: center;
   align-content: start;
-}
-
-.little-loading-image {
-  width: 3vw;
-  height: 3vw;
-  animation: spin 2s linear infinite;
-  transform: scaleX(-1); /* Flips the image horizontally */
-}
-
-.loading-text {
-  /* position: absolute;
-  top: 5vw;
-  left: 1.5vw; */
-  font-size: 1.5vw;
-  color: white;
-  font-weight: 700;
-  font-family: 'CalasansSolid', sans-serif;
-  z-index: 3; /* Higher than black-overlay */
 }

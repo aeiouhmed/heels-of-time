@@ -13,14 +13,20 @@ function OriginPage() {
     return (
         <div className="grey-bg">
           <img src="/originPage/paper-bg.png" className="paper-bg"/>
-          <img src="/originPage/left-bottom.svg" className="left-bottom"/>
           <img src="/originPage/left-top.svg" className="left-top"/>
           <img src="/originPage/origins-early-use.svg" className="origins-early-use"/>
           <img src="/originPage/post-it-left.svg" className="post-it-left"/>
-          <img src="/originPage/post-it-right.png" className="post-it-right"/>
-          <img src="/originPage/text-persian.svg" className="text-persian"/>
-          <img src="/originPage/right-bottom.svg" className="right-bottom"/>
-          <img src="/originPage/right-middle.svg" className="right-middle"/>
+          
+          <div className="notee">
+            <img src="/originPage/text-persian.svg" alt="" className="notee-img" />
+            <img src="/originPage/post-it-right.png" alt="" className="notee-text-img" />
+          </div>
+          
+          <div class="image-container">
+            <img src="/originPage/left-bottom.svg" className="left-bottom"/>
+            <img src="/originPage/right-bottom.svg" className="right-bottom"/>
+            <img src="/originPage/right-middle.svg" className="right-middle"/>
+          </div>
           <div className="back-btn">
             <button onClick={back}>GO BACK</button>
           </div>
